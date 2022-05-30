@@ -65,7 +65,7 @@ In case we regret the change in the we will get the file in its previous state b
 git restore story1.txt
 ```
 
-### 5. commit separately
+### 7. commit separately
 
 If the 2 stories sre **unrelated** so we wold like want to make 2 separately commits, that's why we have the **staging** area
 
