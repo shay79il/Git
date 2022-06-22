@@ -13,9 +13,9 @@ git revert '<COMMIT-HASH>'
 
 ```bash
 # soft reset - which means keeping the changes made
-git reset --sort HEAD~1
+git reset --soft HEAD~1
 # Or
-git reset --sort '<COMMIT-HASH>'
+git reset --soft '<COMMIT-HASH>'
 
 # hard reset - which means loosing the changes made
 git reset --hard HEAD~1
