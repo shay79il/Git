@@ -25,3 +25,9 @@ git remote rm origin
 ```bash
 git push origin main
 ```
+
+### 4. Git push to non-created remote repo
+
+```bash
+git push --set-upstream origin <branchName>
+```
